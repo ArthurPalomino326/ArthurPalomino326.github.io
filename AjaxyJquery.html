@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+    <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="page-header bg-succes text-center"><span class="h4">Registrate</span></div>
+    <form action="#" method="POST" style="width:25%; margin:0 auto;">
+        <fieldset>
+            <legend class="text-center header text-success">Datos Personales</legend>
+            <div class="form-group">
+                <label for="nom">Nombres y Apellidos</label>
+                <input type="text" class="form-control" id="nombre">
+            </div>
+            <div class="form-group">
+                <label for="email">Correo electronico:</label>
+                <input type="text" class="form-control" id="correo">
+            </div>
+            <div class="form-group">
+                <label for="">Telefono</label>
+                <input type="text" class="form-control" id="telefono">
+            </div>
+            <div class="form-group">
+                <label for="">Lugar de recidencia</label>
+                <input type="text" class="form-control" id="direccion">
+            </div>
+            <div class="form-group">
+                <div class="checkbox"></div>
+                <label for="">Recordarme</label>
+                <input type="checkbox">
+            </div>
+            <a href="file:///C:/Entregable%20final%20Dise%C3%B1o%20de%20aplicaciones%20web/pagina.html">Regresar a pagina inicial</a>
+            <div class="form-group">
+                <input type="button" id="Enviar" class="btn btn-primary form-control" value="Guardar" >
+            </div>
+            <div class="form-group">
+                <div id="resultado" style="background-color:#aaa;width:100%;" class=""></div>
+                <input type="button" class="btn btn-success" style="display:none;width:100%;" id="boton1" value="Limpiar">
+            </div>
+        </fieldset>
+    </form>
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/codigo.js"></script>
+</body>
+</html>
